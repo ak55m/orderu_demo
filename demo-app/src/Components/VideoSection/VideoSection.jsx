@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { FaPlayCircle } from 'react-icons/fa';
 import { RxCross1 } from 'react-icons/rx';
-import videoFile from '../../assets/orderu.mp4';  // Import the video file
 
 const VideoSection = () => {
     const [isVideoPlaying, setIsVideoPlaying] = useState(false);
@@ -19,15 +18,13 @@ const VideoSection = () => {
             {isVideoPlaying ? (
                 <div className='w-full h-[80vh] md:h-[90vh] flex items-center justify-center bg-black'>
                     <div className='relative w-full h-full flex items-center justify-center'>
-                        <video
-                            className='w-full h-full object-cover'
-                            controls
-                            autoPlay
-                        >
-                            {/* Use the imported video file */}
-                            <source src={videoFile} type='video/mp4' />
-                            Your browser does not support the video tag.
-                        </video>
+                        <iframe
+                            className='w-full h-full'
+                            src="https://player.vimeo.com/video/1028741550?autoplay=1" // Vimeo embed URL with autoplay
+                            frameBorder="0"
+                            allow="autoplay; fullscreen"
+                            allowFullScreen
+                        />
                         <div onClick={handleCloseVideo} className='bg-white absolute top-5 cursor-pointer right-5 p-3 rounded-full'>
                             <RxCross1 size={30} className='text-black' />
                         </div>
@@ -37,13 +34,11 @@ const VideoSection = () => {
                 <div className='w-full h-[80vh] sm:w-11/12 sm:h-11/12 md:w-5/6 md:h-5/6 bg-white shadow-sm flex flex-col items-center justify-center gap-5 px-3 md:px-0'>
                     <div className='w-full h-full relative'>
                         {/* Play Button Overlay on Image */}
-
                         <div 
                             className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 cursor-pointer'
                             onClick={handlePlayVideo}
                         >
                         </div>
-
                     </div>
                     <div className='flex flex-col items-center justify-center gap-5'>
                         <h1 className='text-5xl font-semibold'>Demo Video</h1>
