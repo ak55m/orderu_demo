@@ -102,7 +102,7 @@ html {
 }
 
 /* Hide paragraphs on mobile screens */
-@media (max-width: 768px) {
+@media (max-width: 992px) {
     .paragraphs {
         display: none;  /* Hide the entire paragraph container on mobile */
     }
