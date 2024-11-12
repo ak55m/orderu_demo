@@ -1,9 +1,5 @@
 
 import React from 'react'
-import ApplyNowImg1 from '../../assets/couple-with-food.jpg';
-import iPhone14home from '../../assets/iPhone-14-Plus-home.png';
-import iPhone14location from '../../assets/iPhone-14-Plus-location.png';
-import iPhone14orders from '../../assets/iPhone-14-Plus-orders.png';
 import iPadPro11MerchantDash1 from '../../assets/iPad-PRO-11-merchant1.png';
 import iPadPro11MerchantDash2 from '../../assets/iPad-PRO-11-merchant2.png';
 import iPadPro11MerchantDash3 from '../../assets/iPad-PRO-11-merchant3.png';
