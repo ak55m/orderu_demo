@@ -20,7 +20,7 @@ const VideoSection = () => {
                     <div className='relative w-full h-full flex items-center justify-center'>
                         <iframe
                             className='w-full h-full'
-                            src="https://player.vimeo.com/video/1028741550?autoplay=1" // Vimeo embed URL with autoplay
+                            src="https://u.pcloud.link/publink/show?code=XZsKLV5ZkTC8chxgebQd6gJhdkMuW7zzmfBy" // Vimeo embed URL with autoplay
                             frameBorder="0"
                             allow="autoplay; fullscreen"
                             allowFullScreen
