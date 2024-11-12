@@ -100,3 +100,10 @@
 html {
     scroll-behavior: smooth; /* This enables smooth scrolling */
 }
+
+/* Hide paragraphs on mobile screens */
+@media (max-width: 768px) {
+    .paragraphs {
+        display: none;  /* Hide the entire paragraph container on mobile */
+    }
+}
