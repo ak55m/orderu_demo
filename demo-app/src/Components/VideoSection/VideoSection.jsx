@@ -42,9 +42,6 @@ const VideoSection = () => {
                     </div>
                     <div className='flex flex-col items-center justify-center gap-5'>
                         <h1 className='text-5xl font-semibold'>Demo Video</h1>
-                        <p className='text-sm text-center'>
-                            Demo video of OrderU
-                        </p>
                         <div className='flex items-center gap-4 text-sky-500 font-medium'>
                             {/* Play Button with Icon */}
                             <FaPlayCircle size={30} onClick={handlePlayVideo} />
