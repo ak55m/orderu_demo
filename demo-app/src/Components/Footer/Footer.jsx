@@ -208,7 +208,7 @@ const Footer = () => {
                     <Link className='text-xs border-b border-b-transparent hover:border-b-white'>Privacy Statement</Link>
                     <h1 className='flex items-center gap-2 text-gray-400 text-xs'>
                         <span>&copy;</span>
-                        orderu 2025
+                        orderU 2025
                     </h1>
                 </div>
             </div>
